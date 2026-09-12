@@ -1,23 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
+    <!-- Mobile / tablet / desktop scaling -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Portfolio Website</title>
+
     <style>
-        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
-        /* Style adjustments to make Canva sit beautifully on the page */
+        /* ==========================================
+           GENERAL PAGE SETTINGS
+           ========================================== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+
+        /* ==========================================
+           CANVA WEBSITE AREA
+           
+           YOUR CANVA HTML GOES INSIDE THIS AREA
+           ========================================== */
+
+        .canva-website {
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+
+
+        /* ==========================================
+           >>> PASTE YOUR CANVA HTML BELOW <<<
+           ========================================== */
+
+        .canva-content {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        /*
+        =================================================
+
+        PASTE YOUR CANVA-GENERATED HTML HERE.
+
+        For example:
+
+        <div class="your-canva-website">
+            ...
+            YOUR CANVA HTML
+            ...
+        </div>
+
+        =================================================
+        */
+
+
+        /* ==========================================
+           RESPONSIVE IMAGES
+           ========================================== */
+
+        .canva-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        /* ==========================================
+           RESPONSIVE VIDEOS
+           ========================================== */
+
+        .canva-content video {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        /* ==========================================
+           TABLETS
+           ========================================== */
+
+        @media (max-width: 1024px) {
+
+            .canva-website {
+                width: 100%;
+            }
+
+            .canva-content {
+                width: 100%;
+            }
+        }
+
+
+        /* ==========================================
+           MOBILE PHONES
+           ========================================== */
+
+        @media (max-width: 600px) {
+
+            .canva-website {
+                width: 100%;
+                margin: 0;
+            }
+
+            .canva-content {
+                width: 100%;
+                min-height: 100vh;
+            }
+
+            /*
+            Prevent large fixed-width Canva elements
+            from creating horizontal scrolling.
+            */
+
+            .canva-content > * {
+                max-width: 100%;
+            }
+        }
+
+
+        /* ==========================================
+           SMALL PHONES
+           ========================================== */
+
+        @media (max-width: 380px) {
+
+            .canva-content {
+                font-size: 95%;
+            }
+        }
+
     </style>
 </head>
+
+
 <body>
-<div style="position: relative; width: 100%; height: 0; padding-top: 200.0000%;
+
+    <!-- ==========================================
+         CANVA WEBSITE CONTAINER
+         ========================================== -->
+
+    <div class="canva-website">
+
+        <div class="canva-content">
+
+
+            <!-- ==================================================
+                 ==================================================
+                 
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+                 PASTE YOUR CANVA WEBSITE HTML HERE
+                 
+                 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                 
+                 ==================================================
+                 ================================================== -->
+
+
+            <!--
+            
+            EXAMPLE:
+
+            <header>
+                <h1>My Portfolio</h1>
+            </header>
+
+            <section>
+                <p><div style="position: relative; width: 100%; height: 0; padding-top: 200.0000%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
  border-radius: 8px; will-change: transform;">
   <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
     src="https://www.canva.com/design/DAHU-0B5ABo/gbfUfb-vpKGCredcf-gZNg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHU-0B5ABo&#x2F;gbfUfb-vpKGCredcf-gZNg&#x2F;view?utm_content=DAHU-0B5ABo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Secret Spark</a> by dazzling orb
-   
-</body>
-</html>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHU-0B5ABo&#x2F;gbfUfb-vpKGCredcf-gZNg&#x2F;view?utm_content=DAHU-0B5ABo&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Secret Spark</a> by dazzling orb</p>
+            </section>
+
+            -->
+
+
+            <!-- ==================================================
+                 END OF CANVA HTML INSERTION AREA
+                 ================================================== -->
+
+        </div>
