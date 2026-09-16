@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +14,7 @@
             padding: 0;
         }
 
-        html,
-        body {
+        html, body {
             width: 100%;
             min-height: 100%;
         }
@@ -39,7 +39,6 @@
         .landing-link {
             display: block;
             width: 100%;
-            text-decoration: none;
         }
 
         .landing-image {
@@ -52,19 +51,22 @@
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
         }
 
+        /* Desktop hover effect */
         .landing-image:hover {
             transform: scale(1.02);
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
         }
 
         /* Mobile */
-        @media screen and (max-width: 600px) {
+        @media (max-width: 600px) {
+
             body {
                 display: block;
             }
 
             .landing-page {
                 width: 100%;
+                max-width: 100%;
                 padding: 10px;
             }
 
@@ -100,7 +102,7 @@
             rel="noopener noreferrer"
         >
             <img
-                src="https://raw.githubusercontent.com/Tonefulsoul/landing1/main/Dating/3.png"
+                src="/landing1/Dating/3.png"
                 alt="Welcome"
                 class="landing-image"
             >
@@ -110,13 +112,4 @@
 
 </body>
 </html>
-       
-
-       
-
-
-  
-
-
-
-    
+```
